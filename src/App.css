@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
 }
 
+/* Header Styling */
+
 header {
   width: 100%;
   border-bottom: 2px solid black;
@@ -24,6 +26,12 @@ h1 {
   font-family: "DM Sans", sans-serif;
 }
 
+.icons img {
+  margin-right: 1rem;
+}
+
+/* Landing Page Styling */
+
 .landing-page {
   width: 80%;
   margin: 6rem auto 3rem auto;
@@ -37,7 +45,14 @@ h1 {
 
 .landing-card {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: end;
+  height: 150px;
+  width: 80%;
+}
 
+.landing-card h4 {
+  font-size: 1.5rem;
+  width: 150px;
 }
