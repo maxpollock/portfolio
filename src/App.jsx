@@ -3,15 +3,16 @@ import Header from "./Pages/Header";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
-      <About />
-      <Portfolio />
-      <Contact />
+      {/* <About /> */}
+      {/* <Portfolio /> */}
+      {/* <Contact /> */}
+      {/* <Footer/> */}
     </>
   );
 }
